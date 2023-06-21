@@ -1,4 +1,4 @@
-const User = require("../../models/mysql/user-learning-path-model");
+const User = require("../../models/mysql/user-model");
 const userLearningPathModel = require("../../models/mongodb/user-learning-path-model");
 const learningPathModel = require("../../models/mongodb/learning-path-model");
 

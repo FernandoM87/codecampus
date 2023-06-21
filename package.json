@@ -19,6 +19,7 @@
     "graphql": "^16.6.0",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
+    "mongoose": "^7.3.0",
     "morgan": "~1.9.1",
     "mysql2": "^3.4.0",
     "passport": "^0.6.0",
