@@ -9,9 +9,9 @@ module.exports = {
 
         const userLearningPath = await userLearningPathModel.findOne({ userId });
 
-        const learningPathath = userLearningPath.learningPaths.find(x => x._id == pathId);
+        const path = userLearningPath.learningPaths.find(x => x._id == pathId);
 
-        const step = learningPathath.learningPath.steps.find(x => x._id == stepId);
+        const step = path.learningPath.steps.find(x => x._id == stepId);
 
         step.done = done;
 
